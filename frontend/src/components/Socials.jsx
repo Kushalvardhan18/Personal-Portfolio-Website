@@ -1,15 +1,9 @@
 import React from "react";
-import linkedin from "../assets/linkedIn.svg";
-import github from "../assets/github.svg";
-import email from "../assets/email.svg";
-import code from "../assets/code.svg";
-import twitter from "../assets/twitter.svg";
-import discord from "../assets/discord.svg";
-import hashnode from "../assets/hashnode.svg";
+import { twitter,linkedin,github,code,hashnode,discord,email } from "../assets/Icons.js";
 
-const Footer = () => {
+const Socials = () => {
   return (
-    <div className="flex items-center justify-between border-1 border-[#c778dd] p-3">
+    <div className="flex items-center justify-between border-1 border-[#941bb6] p-3">
       <span className="text-2xl">Software Engineer and Web Developer</span>
       <div className="flex items-center gap-5">
         <a href="https://x.com/Kuvar2941" target="_blank" aria-label="Twitter">
@@ -64,4 +58,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Socials;
