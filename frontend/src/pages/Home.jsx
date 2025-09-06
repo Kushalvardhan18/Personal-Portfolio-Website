@@ -7,7 +7,7 @@ const Home = () => {
     <div className=" my-2 mx-5 ">
       <div className="flex">
         <Navigations />
-        <div className="mt-15 mb-5 flex flex-col items-center justify-center  sticky left-95 gap-5">
+        <div className="mt-15 mb-5 flex flex-col items-center justify-center  sticky left-100 gap-5">
           <div className="flex flex-col items-center">
             <img src={myPic} alt="ProfilePicture" className="w-40 rounded-xl" />
             <span>

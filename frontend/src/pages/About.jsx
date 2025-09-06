@@ -5,8 +5,8 @@ const About = () => {
     <div className="mx-5 my-2">
       <div className="flex gap-50">
         <Navigations />
-        <div className="flex flex-col justify-center gap-5">
-          <span className="!text-[#c778dd] text-2xl ">About Me</span>
+        <div className="mt-15 mb-5 flex flex-col justify-center items-center gap-5">
+          <span className="mb-5 !text-[#c778dd] text-4xl ">About Me</span>
           <p className="text-xl">
             Hi, I'm Kushal Vardhan, a 24-year-old{" "}
             <span className="!text-[#c778dd]">Software Developer</span> with a
