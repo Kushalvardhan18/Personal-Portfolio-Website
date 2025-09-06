@@ -11,6 +11,7 @@ import discord from "../assets/icons/discord.svg";
 import hashnode from "../assets/icons/hashnode.svg";
 import hireme from "../assets/icons/hireme.png";
 import pronounce from "../assets/icons/pronounce.png";
+import location from "../assets/icons/location.svg"
 
 
-export {home,user,contact,linkedin,github,email,code,twitter,hashnode,discord,pronounce,hireme}
+export {home,user,contact,linkedin,github,email,code,twitter,hashnode,discord,pronounce,hireme,location}
