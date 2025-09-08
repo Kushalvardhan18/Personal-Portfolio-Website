@@ -9,13 +9,13 @@ const ShowLabelIcons = ({ icon, label, link }) => {
         <img
           src={icon}
           alt={label}
-          className="p-1.5 rounded-md  hover:!bg-[#941bb6] w-9 transition duration-500 "
+          className="p-1.5 rounded-md  hover:!bg-[#941bb6] w-10 transition duration-500 "
           onMouseEnter={() => setShow(true)}
           onMouseLeave={() => setShow(false)}
         />
       </NavLink>
       {show && (
-        <strong className="ml-2 transition-opacity duration-200">
+        <strong className="ml-2 transition-opacity duration-200 text-xl">
           {label}
         </strong>
       )}

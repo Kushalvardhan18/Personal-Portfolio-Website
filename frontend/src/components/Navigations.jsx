@@ -5,22 +5,26 @@ import { signature } from "../assets/images.js";
 
 const Navigations = () => {
   return (
-    <div className="flex flex-col my-2">
-      <div className="cursor-pointer fixed">
-        <img src={signature} alt="logo" width="150px" />
-      </div>
-      <nav className="flex flex-col gap-10 font-medium text-1xl h-100 justify-center w-50 fixed top-25">
+    <div className="flex flex-col justify-center gap-10 absolute w-50 z-50">
+      <img src={signature} alt="logo"  />
+      <nav className="flex flex-col gap-10 font-medium text-1xl justify-center ">
         <div className="cursor-pointer flex items-center relative">
-          <ShowLabelIcons icon={home} label="Home" link ="/" />
+          <ShowLabelIcons icon={home} label="Home" link="/" />
         </div>
         <div className="cursor-pointer flex items-center relative">
-          <ShowLabelIcons icon={user} label="About" link ="/about" />
+          <ShowLabelIcons icon={user} label="About" link="/about" />
         </div>
         <div className="cursor-pointer flex items-center relative">
-          <ShowLabelIcons icon={contact} label="Contact Me" link ="/contact"/>
+          <ShowLabelIcons icon={contact} label="Contact Me" link="/contact" />
         </div>
         <div className="cursor-pointer flex items-center relative ">
-          <ShowLabelIcons icon={hireme} label="Hire Me" link ="/hireme" />
+          <ShowLabelIcons icon={hireme} label="Hire Me" link="/hireme" />
+        </div>
+        <div className="cursor-pointer flex items-center relative ">
+          <ShowLabelIcons icon={hireme} label="Hire Me" link="/hireme" />
+        </div>
+        <div className="cursor-pointer flex items-center relative ">
+          <ShowLabelIcons icon={hireme} label="Hire Me" link="/hireme" />
         </div>
       </nav>
     </div>

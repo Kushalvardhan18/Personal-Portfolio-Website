@@ -6,7 +6,7 @@ const ContactMe = () => {
     <div className="mx-5 my-2">
       <div className="flex gap-50">
         <Navigations />
-        <div className="flex flex-col items-center justify-center mt-15 mb-5">
+        <div className="flex flex-col items-center justify-center mt-15 mb-5 relative w-screen">
           <h1 className="mb-5 !text-[#c778dd] text-4xl ">Contact Me</h1>
           <div className="flex gap-20 mt-5">
             <ContactForm />
@@ -23,7 +23,7 @@ const ContactMe = () => {
               <div className="flex gap-5">
                 <img src={location} alt="location" width={30} />
                 <span className="text-2xl !text-amber-500 ">
-                  Can found me here !!!{" "}
+                 You Can find me here !!!{" "}
                 </span>
               </div>
             </div>
