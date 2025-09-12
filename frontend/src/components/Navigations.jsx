@@ -5,25 +5,25 @@ import { signature } from "../assets/images.js";
 
 const Navigations = () => {
   return (
-    <div className="flex flex-col justify-center gap-10 absolute w-50 z-50">
-      <img src={signature} alt="logo"  />
-      <nav className="flex flex-col gap-10 font-medium text-1xl justify-center ">
-        <div className="cursor-pointer flex items-center relative">
+    <div className="flex my-2 justify-between items-center mx-5">
+      <div className="cursor-pointer">
+        <img src={signature} alt="logo" className="w-[150px]" />
+      </div>
+
+      <nav className="flex gap-15 font-medium text-xl justify-center items-center ">
+        <div className="cursor-pointer flex flex-col items-center relative h-[30px]">
           <ShowLabelIcons icon={home} label="Home" link="/" />
         </div>
-        <div className="cursor-pointer flex items-center relative">
+
+        <div className="cursor-pointer flex flex-col items-center relative h-[30px]">
           <ShowLabelIcons icon={user} label="About" link="/about" />
         </div>
-        <div className="cursor-pointer flex items-center relative">
+
+        <div className="cursor-pointer flex flex-col items-center relative h-[30px]">
           <ShowLabelIcons icon={contact} label="Contact Me" link="/contact" />
         </div>
-        <div className="cursor-pointer flex items-center relative ">
-          <ShowLabelIcons icon={hireme} label="Hire Me" link="/hireme" />
-        </div>
-        <div className="cursor-pointer flex items-center relative ">
-          <ShowLabelIcons icon={hireme} label="Hire Me" link="/hireme" />
-        </div>
-        <div className="cursor-pointer flex items-center relative ">
+
+        <div className="cursor-pointer flex flex-col items-center relative h-[30px]">
           <ShowLabelIcons icon={hireme} label="Hire Me" link="/hireme" />
         </div>
       </nav>

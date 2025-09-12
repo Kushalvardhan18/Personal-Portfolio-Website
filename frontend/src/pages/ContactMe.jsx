@@ -4,9 +4,9 @@ import { location } from "../assets/Icons";
 const ContactMe = () => {
   return (
     <div className="mx-5 my-2">
-      <div className="flex gap-50">
         <Navigations />
-        <div className="flex flex-col items-center justify-center mt-15 mb-5 relative w-screen">
+      <div className="flex gap-50">
+        <div className="flex flex-col items-center justify-center mb-5 relative w-screen z-10">
           <h1 className="mb-5 !text-[#c778dd] text-4xl ">Contact Me</h1>
           <div className="flex gap-20 mt-5">
             <ContactForm />

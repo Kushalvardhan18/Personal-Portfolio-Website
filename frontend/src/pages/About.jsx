@@ -4,10 +4,10 @@ import { myPic } from "../assets/images";
 const About = () => {
   return (
     <div className="mx-5 my-2">
-      <div className="flex gap-50">
         <Navigations />
-        <div className="mt-15 mb-5 flex flex-col justify-center items-center gap-5 ">
-          <span className="mb-5 !text-[#c778dd] text-4xl ">About Me</span>
+      {/* <div className="flex gap-50"> */}
+        <div className=" mb-5 flex flex-col justify-center items-center gap-5 mx-5">
+          <h1 className="mb-5 !text-[#c778dd] text-4xl ">About Me</h1>
           <div className="flex gap-10">
             <p className="text-xl">
               Hi, I'm Kushal Vardhan, a 24-year-old{" "}
@@ -22,7 +22,7 @@ const About = () => {
               might find me experimenting with projects or enhancing my GitHub
               portfolio. I believe in constantly experimenting and learning by
               building projects that challenge my creativity and problem-solving
-              skills. <br />
+              skills. <br /> <br />
               At the same time, I have a strong desire to serve society and make
               a difference in people's lives.I aim to combine my technical
               knowledge and leadership qualities to contribute meaningfully to
@@ -42,7 +42,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    // </div>
   );
 };
 

@@ -9,7 +9,7 @@ const ContactForm = () => {
         boxShadow:
           "rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px",
       }}
-      className="ml-5 border p-3 rounded-xl w-80"
+      className="ml-5 border p-3 rounded-xl w-80 "
     >
       <form onSubmit={handleSubmit} className="flex flex-col p-5">
         <h3 className="text-2xl !text-amber-500 mb-5">Send a Message</h3>
