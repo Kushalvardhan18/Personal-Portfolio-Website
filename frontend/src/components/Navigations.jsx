@@ -2,12 +2,16 @@ import React from "react";
 import ShowLabelIcons from "./ShowLabelIcons.jsx";
 import { home, user, contact, hireme } from "../assets/Icons.js";
 import { signature } from "../assets/images.js";
+import { NavLink } from "react-router-dom";
+
 
 const Navigations = () => {
   return (
     <div className="flex my-2 justify-between items-center mx-5">
       <div className="cursor-pointer">
-        <img src={signature} alt="logo" className="w-[150px]" />
+        <NavLink to={"/"}>
+        <img src={signature} alt="logo" className="w-[150px]"  />
+        </NavLink>
       </div>
 
       <nav className="flex gap-15 font-medium text-xl justify-center items-center ">
