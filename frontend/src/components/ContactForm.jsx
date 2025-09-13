@@ -9,11 +9,10 @@ const ContactForm = () => {
         boxShadow:
           "rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px",
       }}
-      className="ml-5 border p-3 rounded-xl w-80 "
+      className="ml-5 border p-5 rounded-xl  w-120"
     >
-      <form onSubmit={handleSubmit} className="flex flex-col p-5">
+      <form onSubmit={handleSubmit} className="flex flex-col p-5 ">
         <h3 className="text-2xl !text-amber-500 mb-5">Send a Message</h3>
-
         <span className="flex flex-col gap-2">
           <label htmlFor="name">Name</label>
           <input
@@ -22,11 +21,18 @@ const ContactForm = () => {
           />
         </span>
 
-        <div className="flex flex-col gap-6 mb-5">
+        <div className="flex flex-col gap-4 mb-5 mt-2">
           <span className="flex flex-col  gap-2">
-            <label htmlFor="lastname">Email</label>
+            <label htmlFor="email">Email</label>
             <input
               type="email"
+              className="border-1 rounded-sm outline-0 py-1 px-2 focus:border-amber-400"
+            />
+          </span>
+          <span className="flex flex-col  gap-2">
+            <label htmlFor="subject">Subject</label>
+            <input
+              type="text"
               className="border-1 rounded-sm outline-0 py-1 px-2 focus:border-amber-400"
             />
           </span>

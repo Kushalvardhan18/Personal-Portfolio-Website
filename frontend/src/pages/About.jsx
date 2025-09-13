@@ -3,7 +3,7 @@ import Navigations from "../components/Navigations";
 import { myPic } from "../assets/images";
 const About = () => {
   return (
-    <div className="mx-5 my-2">
+    <div className="flex flex-col m-3">
         <Navigations />
       {/* <div className="flex gap-50"> */}
         <div className=" mb-5 flex flex-col justify-center items-center gap-5 mx-5">
