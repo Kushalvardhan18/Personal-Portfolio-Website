@@ -15,7 +15,7 @@ const Home = () => {
           <span className="!text-green-500 font-semibold">Now</span>.
         </div>
       </div>
-      <div className="flex flex-col gap-5 mb-2">
+      <div className="flex flex-col gap-5 mb-5">
         <div className="flex flex-col justify-center items-center text-6xl font-extrabold mt-2">
           KUSHAL VARDHAN
         </div>
