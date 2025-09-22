@@ -19,8 +19,8 @@ const Home = () => {
         <div className="flex flex-col justify-center items-center text-6xl font-extrabold mt-2">
           KUSHAL VARDHAN
         </div>
-        <div className="flex flex-col justify-center items-center gap-2   !text-cyan-500">
-          <img src={pronounce} alt="pronounce" width={20} />
+        <div className="flex  justify-center items-center gap-2   !text-cyan-500">
+          <img src={pronounce} alt="pronounce"  width={30}/>
           ku-shaa-l var-dhan
         </div>
         <span className="flex flex-col justify-center items-center text-2xl">

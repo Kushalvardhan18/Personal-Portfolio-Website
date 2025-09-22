@@ -17,63 +17,65 @@ const Socials = () => {
           href="https://x.com/Kuvar2941"
           target="_blank"
           aria-label="Twitter"
-           className="inline-block transform transition-all duration-700 hover:scale-150"
+          className="inline-block transform transition-all duration-500 hover:scale-150"
+         
         >
-          <img src={twitter} alt="Twitter" width={"35px"} />
+          <img src={twitter} alt="Twitter" width={"35px"}  title="Twitter"/>
         </a>
 
         <a
           href="https://www.linkedin.com/in/kushalvardhan1804/"
           target="_blank"
           aria-label="LinkedIn"
-            className="inline-block transform transition-all duration-700 hover:scale-150 "
+          className="inline-block transform transition-all duration-500 hover:scale-150 "
+          
         >
-          <img src={linkedin} alt="LinkedIn" width={"35px"} />
+          <img src={linkedin} alt="LinkedIn" width={"35px"} title="LinkedIn"/>
         </a>
 
         <a
           href="https://github.com/Kushalvardhan18"
           target="_blank"
           aria-label="GitHub"
-           className="inline-block transform transition-all duration-700 hover:scale-150 "
+          className="inline-block transform transition-all duration-500 hover:scale-150 "
         >
-          <img src={github} alt="GitHub" width={"35px"} />
+          <img src={github} alt="GitHub" width={"35px"} title="Github"/>
         </a>
 
         <a
           href="https://leetcode.com/u/Kuvar2941/"
           target="_blank"
           aria-label="LeetCode"
-          className="inline-block transform transition-all duration-700 hover:scale-150 "
+          className="inline-block transform transition-all duration-500 hover:scale-150 "
         >
-          <img src={code} alt="LeetCode" width={"35px"} />
+          <img src={code} alt="LeetCode" width={"35px"} title="LeetCode"/>
         </a>
 
         <a
           href="https://discord.gg/5vy8sWr4Nd"
           target="_blank"
           aria-label="Discord"
-           className="inline-block transform transition-all duration-700 hover:scale-150 "
+          className="inline-block transform transition-all duration-500 hover:scale-150 "
         >
-          <img src={discord} alt="Discord" width={"35px"} />
+          <img src={discord} alt="Discord" width={"35px"} title="Discord"/>
         </a>
 
         <a
           href="https://hashnode.com/@kuvar2941"
           target="_blank"
           aria-label="HashNode"
-            className="inline-block transform transition-all duration-700 hover:scale-150 "
+          className="inline-block transform transition-all duration-500 hover:scale-150 "
         >
-          <img src={hashnode} alt="HashNode" width={"35px"} />
+          <img src={hashnode} alt="HashNode" width={"35px"} title="HashNode"/>
         </a>
 
         <a
           href=""
           target="_blank"
           aria-label="Email"
-          className="inline-block transform transition-all duration-700 hover:scale-150 "
+          className="inline-block transform transition-all duration-500 hover:scale-150 "
         >
-          <img src={email} alt="Email" width={"35px"} />
+          <img src={email} alt="Email" width={"35px"} title="Email" />
         </a>
       </div>
     </div>
