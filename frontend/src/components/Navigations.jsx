@@ -15,8 +15,8 @@ const Navigations = () => {
       </div>
 
       <nav className="flex gap-15 font-medium text-xl justify-center items-center ">
-        <div className="cursor-pointer flex flex-col items-center relative h-[30px]">
-          <ShowLabelIcons icon={home} label="Home" link="/" />
+        <div className="cursor-pointer flex flex-col items-center relative h-[30px] ">
+          <ShowLabelIcons icon={home} label="Home" link="/"  />
         </div>
 
         <div className="cursor-pointer flex flex-col items-center relative h-[30px]">

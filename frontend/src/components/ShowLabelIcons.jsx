@@ -3,16 +3,17 @@ import { NavLink } from "react-router-dom";
 
 const ShowLabelIcons = ({ icon, label, link }) => {
   const [show, setShow] = useState(false);
-
+// const [active,setActive] = useState(null)
   return (
     <div className="relative flex flex-col items-center group">
-      <NavLink to={link}>
+      <NavLink to={link}  className={({ isActive }) => isActive ? "!bg-red-500" : ""}>
         <img
           src={icon}
           alt={label}
-          className="p-1.5 rounded-md hover:!bg-[#941bb6] w-10 transition duration-300"
+          className="p-1.5 rounded-md hover:!bg-[#941bb6] w-10 transition duration-300 "
           onMouseEnter={() => setShow(true)}
           onMouseLeave={() => setShow(false)}
+          
         />
       </NavLink>
       {show && (
