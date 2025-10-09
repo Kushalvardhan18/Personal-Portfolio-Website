@@ -1,6 +1,6 @@
 import React from "react";
-import ShowLabelIcons from "./ShowLabelIcons.jsx";
-import { home, user, contact, hireme } from "../assets/Icons.js";
+import ShowLabelIcons from "../assets/ShowLabelIcons.jsx";
+import { home, user, contact, hireme ,projects} from "../assets/Icons.js";
 import { signature } from "../assets/images.js";
 import { NavLink } from "react-router-dom";
 
@@ -19,6 +19,9 @@ const Navigations = () => {
           <ShowLabelIcons icon={home} label="Home" link="/"  />
         </div>
 
+        <div className="cursor-pointer flex flex-col items-center relative h-[30px]">
+          <ShowLabelIcons icon={projects} label="Projects" link="/Projects" />
+        </div>
         <div className="cursor-pointer flex flex-col items-center relative h-[30px]">
           <ShowLabelIcons icon={user} label="About" link="/about" />
         </div>
