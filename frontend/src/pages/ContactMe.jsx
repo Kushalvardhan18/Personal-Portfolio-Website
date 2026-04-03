@@ -6,9 +6,9 @@ const ContactMe = () => {
   
   return (
     <div className="flex flex-col m-3">
+      <div className="flex flex-col items-center justify-center mb-5 w-full relative z-10 gap-5">
       <Navigations />
-      <div className="flex flex-col items-center justify-center mb-5 w-full relative z-10">
-        <h1 className="mb-5 !text-[#c778dd] text-4xl ">Contact Me</h1>
+        <h1 className="mb-5 !text-[#c778dd] text-4xl mt-5">Contact Me</h1>
         <div className="flex gap-20 mt-5">
           <ContactForm />
           <div className="border-1 p-8 flex flex-col gap-5 rounded-xl">

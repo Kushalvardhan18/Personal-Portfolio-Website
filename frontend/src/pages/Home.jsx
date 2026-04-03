@@ -4,10 +4,10 @@ import { pronounce } from "../assets/Icons";
 import { myPic } from "../assets/images";
 const Home = () => {
   return (
-    <div className="flex flex-col m-3">
-      <Navigations />
-      <div className="flex flex-col items-center justify-center gap-15">
-        <img src={myPic} alt="ProfilePicture" className="w-40 rounded-xl" />
+    <div className="flex flex-col m-3 ">
+      <div className="flex flex-col items-center justify-center gap-10">
+        <Navigations />
+        <img src={myPic} alt="ProfilePicture" className="w-40 rounded-xl mt-15" />
         <div className="text-xl">
           Surpass your{" "}
           <span className="!text-red-500 font-semibold">LIMITS</span>. Right{" "}
@@ -23,6 +23,7 @@ const Home = () => {
           <img src={pronounce} alt="pronounce"  width={30}/>
           ku-shaa-l var-dhan
         </div>
+        
         <span className="flex flex-col justify-center items-center text-2xl">
           Software Developer From India <strong> IN</strong>
         </span>
@@ -31,6 +32,7 @@ const Home = () => {
         </p>
       </div>
       <Socials />
+
     </div>
   );
 };
