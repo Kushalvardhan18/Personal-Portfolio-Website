@@ -3,11 +3,12 @@ import ShowLabelIcons from "../assets/ShowLabelIcons.jsx";
 import { home, user, contact, hireme ,projects} from "../assets/Icons.js";
 
 import { NavLink } from "react-router-dom";
-
+import {signature} from "../assets/images"
 
 const Navigations = () => {
   return (
-    <div className="flex my-2 justify-between items-center mx-5">
+    <div className="flex my-2 justify-center items-center mx-5 gap-50 ">
+      <img src={signature} alt="logo" width='100px' className="cursor-pointer"/>
       <nav className="flex gap-15 font-medium text-xl justify-center items-center ">
         <div className="cursor-pointer flex flex-col items-center relative h-[30px] ">
           <ShowLabelIcons icon={home} label="Home" link="/"  />
